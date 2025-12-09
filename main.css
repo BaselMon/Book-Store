@@ -325,4 +325,61 @@ align-items: center;
 }
 
 
+footer {
+    background-color: var(--bg-light);
+    margin-top: 3.5rem;
+}
+
+.footer-inner {
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 2rem 1.25rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1.5fr;
+    gap: 2rem;
+    font-size: 0.875rem;
+}
+
+.footer-brand img {
+    height: 2.25rem;
+    margin-bottom: 0.75rem;
+}
+
+.footer-brand p {
+    color: var(--text-muted);
+}
+
+.footer-col h4 {
+    margin-bottom: 0.75rem;
+}
+
+.footer-col ul {
+    list-style: none;
+}
+
+.footer-col li {
+    margin-bottom: 0.5rem;
+    color: var(--text-muted);
+}
+
+.footer-col a {
+    color: var(--text-muted);
+    text-decoration: none;
+}
+
+.newsletter input {
+    width: 100%;
+    padding: 0.5rem 0.625rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.25rem;
+    border: 0.0625rem solid #cccccc;
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 0.8125rem;
+    padding: 0.75rem 0 1rem;
+    color: var(--text-muted);
+}
+
 
