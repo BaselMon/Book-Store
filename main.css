@@ -558,6 +558,41 @@ bottom: 14%;
 }
 
 /*--------------------------- fourth part --------------------------*/
+.blog-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #f0f0f0;
+}
+
+.blog-icons i {
+    color: #00bcd4;
+    font-size: 1.2rem;
+    transition: transform 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
+
+.blog-icons i:hover {
+    color: #0097a7;
+    transform: scale(1.2);
+}
+
+.blog-icons a {
+    color: #00bcd4;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.blog-icons a:hover {
+    color: #0097a7;
+    transform: scale(1.2);
+}
+
+/*------------------------ end of it---------------*/
+
 
 
 
