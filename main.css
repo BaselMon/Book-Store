@@ -352,38 +352,7 @@ bottom: 14%;
 
 
 
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 4em;
-  justify-items: center;
-}
 
-/* For IPhone XR  */
-@media (min-width: 414px) {
-  .gallery {
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
-
-/* For IPad Pro  */
-@media (min-width: 1024px) and (max-width: 1400px) {
-  .gallery {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  .gallery .last {
-    grid-column: 1 / -1;
-  }
-}
-
-
-/* For Desktop */
-@media (min-width: 1450px) {
-  .gallery {
-    grid-template-columns: repeat(5, 1fr);
-  }
-}
 
 .new1,
 .new2,
@@ -592,6 +561,7 @@ bottom: 14%;
 }
 
 /*------------------------ end of it---------------*/
+
 
 
 
