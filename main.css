@@ -480,6 +480,31 @@ bottom: 14%;
   background: var(--subcolor);
   color: white;
 } 
+/*************************************************/
+
+.blog {
+    padding: 5rem 0;
+}
+
+.blog h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    font-weight: bold;
+    color: var(--text-black-color);
+}
+
+/* ONE ROW - 3 cards */
+.blog-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 2rem;
+    flex-wrap: nowrap;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
 
 
 
