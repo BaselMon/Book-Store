@@ -562,6 +562,21 @@ bottom: 14%;
 
 /*------------------------ end of it---------------*/
 
+/* Section */
+#reviews {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    font-weight: bold;
+    color: var(--text-black-color);
+}
+
+#reviews .section-title {
+    font-size: 2.25rem;
+    margin-bottom: 2.5rem;
+    text-align: center;
+    font-weight: 700;
+}
 
 
 
