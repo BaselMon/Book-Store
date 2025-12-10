@@ -383,3 +383,22 @@ footer {
 }
 
 
+/* Card styling - match your design */
+.review-card {
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    padding: 2rem 1.5rem 1.5rem;
+    border: 2px solid #a8d5e2;
+    box-shadow: 0 8px 20px rgba(168, 213, 226, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 260px;
+    flex: 0 0 260px;
+    min-height: 400px;
+}
+
+.review-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 28px rgba(168, 213, 226, 0.25);
+}
+
