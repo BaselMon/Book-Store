@@ -589,12 +589,35 @@ bottom: 14%;
     margin: 0 auto;
 }
 
+/****************************************************//******/
 
+/* 1. Default (Light Mode)  */
 
+body {
+    background-color: #ffffff; 
+    color: #333333;            
+    transition: background-color 0.3s, color 0.3s;
+}
 
+/* 2. Dark Mode */
 
+body.dark {
+    background-color: #121212; 
+    color: #e0e0e0;            
+}
 
+.dark-toggle {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 1.3rem;
+    padding: 10px;
+    border-radius: 5px;
+}
 
+body.dark .dark-toggle {
+    color: #fff;
+}
 
 
 
